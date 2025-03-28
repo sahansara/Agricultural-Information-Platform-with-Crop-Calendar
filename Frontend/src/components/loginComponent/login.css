@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Scope styles specifically to the login-page */
+.login-page .login-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('./loginpic.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-page .login-box {
+  position: relative;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  font-size: 20px;
+}
+
+.login-page .logo {
+  position: absolute;
+  top: 0.5px;
+  left: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+/* Style the rest similarly */
+
+
+
+
+/* Input and button styling follows... */
+/* Rest of the code remains unchanged... */
+
+
+.header-button {
+  padding: 10px 10px;
+  background-color: hwb(120 6% 28%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.header-button:hover {
+  background-color: #187818;
+}
+
+/* Input field styling */
+.login-input {
+  width: 100%;
+  height: 60px;
+  border: 3px solid hwb(120 6% 28%);
+  border-radius: 40px;
+  padding-left: px; /* Space for the icon */
+  padding-right: 10px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000000e0;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  text-indent: 35px
+   
+}
+/* If you want to adjust the line height */
+.login-input {
+  line-height: 10;
+  
+  
+}
+
+
+.login-input:focus {
+  border-color: #4a90e2; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(13, 91, 181, 0.5);
+}
+
+
+/* Placeholder styling for all browsers */
+.login-input::placeholder {
+  font-size:16px;
+  padding-left:.5px;
+  color: #181414; 
+}
+.input-icon{
+  position:relative;
+  left:-43%;
+  top:40px;
+  right: 20px;
+  
+  translate: 0-50%;
+  font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+/* To ensure the input has no default styling interference */
+.login-input {
+  padding: 10px;
+  font-size: 16px;
+  color: #1f1d1d;
+}
+
+
+/* Button styling */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  background-color: #10b710;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #187818;
+}
+
+/* Checkbox label styling */
+
+/* Remember me checkbox styling */
+.checkbox-label {
+  font-size: 15px;
+  color: #ee0000;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-top: 12px;
+  margin-left: 10px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* Login button styling */
+.login-button {
+  width: 100%;
+  height: 40px;
+  background-color:  hsl(122, 81%, 44%);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0ba900;
+}
+
+.login-button:disabled {
+  background-color:#0ba900;
+  cursor: not-allowed;
+}
+
+/* Links at the bottom of the form */
+.login-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-links p {
+  font-size: 14px;
+  color: hsl(122, 81%, 44%);
+}
+
+.login-links a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+/* Extra form field margin and checkbox adjustments */
+input[type="checkbox"] {
+  transform: scale(1.1); /* Slightly bigger checkboxes */
+  margin-right: 8px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #0a0a0a;
+  cursor: pointer;
+}
+
+/* Custom button styling for the SIGN UP button */
+.top-right-buttons button {
+  background-color: hsl(122, 81%, 44%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.top-right-buttons button:hover {
+  background-color: #0ba900;
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 768px) {
+  .login-box {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .login-title {
+    font-size: 30px;
+  }
+
+  .top-right-buttons {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

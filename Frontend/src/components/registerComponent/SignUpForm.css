@@ -1,0 +1,133 @@
+/* Enhanced CSS for Sign-Up Form */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e8f5);
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  position: absolute;
+}
+
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  
+}
+
+
+
+.form-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #28a745 !important; /* Ensures green border on focus */
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5) !important; /* Green shadow */
+}
+
+.form-group input:hover,
+.form-group select:hover,
+.form-group textarea:hover {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-toggle-button {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.radio-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+}
+
+.radio-option input {
+  margin-right: 8px;
+}
+
+.form-group a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.form-group a:hover {
+  text-decoration: underline;
+}

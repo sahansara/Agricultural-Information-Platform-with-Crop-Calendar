@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 The **Agricultural Information Platform with Crop Calendar** is designed to assist farmers and agricultural stakeholders by providing essential crop-related information. 
-The platform offers a **crop calendar**, agricultural tips, and insights to help improve productivity and sustainability in farming.
+The platform offers a **Crop calendar**, agricultural tips, and insights to help improve productivity and sustainability in farming.
 
 ---
 

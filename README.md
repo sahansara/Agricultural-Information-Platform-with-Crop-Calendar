@@ -61,7 +61,7 @@ The system is designed to meet several key functional requirements:
 ---
 
 ## 🚀 Getting Started
-To run this project locally, follow these steps:
+To run this project locally, follow these all steps:
 
 ### 📥 Clone the Repository
 ```sh

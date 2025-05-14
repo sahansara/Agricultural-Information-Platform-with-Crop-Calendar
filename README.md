@@ -97,5 +97,4 @@ To run this project locally, follow these all steps:
 This project is open-source under the **MIT License**.
 
 ---
-
-
+---
